@@ -6,6 +6,7 @@ const {
   users,
 } = require('../app/lib/placeholder-data.js');
 const bcrypt = require('bcrypt');
+const prefix = 'dashboard_';
 
 async function seedUsers(client) {
   try {
